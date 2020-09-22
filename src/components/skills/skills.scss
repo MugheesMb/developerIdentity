@@ -1,0 +1,166 @@
+
+.skills{
+    height: 150vh;
+
+    @media screen and (max-width: 1366px) {
+      
+      height: unset;
+      }
+
+    
+.text{
+    font-weight: bolder;
+    font-size: 3em; 
+text-align: center;
+    color: white;
+    @media screen and (max-width: 800px) {
+      font-size: 1.5em;
+ 
+      }
+    
+    
+}
+.f5{
+    text-shadow: 2px 2px 4px #BBC9DD; 
+  
+    color: #D7FFFE; 
+}
+
+h2, i {
+    text-shadow: 2px 2px 4px #BBC9DD; 
+  
+    color: #D7FFFE; 
+    font-size: 1.5em;
+    @media screen and (max-width: 800px) {
+      font-size: 1em;
+ 
+      }
+   
+}
+img{
+ width: 10%;
+ @media screen and (max-width: 800px) {
+  width: unset;
+
+  }
+}
+
+.tex{
+    font-weight: bolder;
+    font-size: 2em; 
+   text-align: center;
+    color: white;
+    
+    @media screen and (max-width: 800px) {
+       font-size: 1em;
+  
+       }
+   
+}
+
+
+.svgcontainer {
+  /*show heigh: auto*/
+
+ 
+display: flex;
+flex-direction: row;
+
+ margin-top: 2%;
+ @media screen and (max-width: 400px) {
+    
+  display: block;
+
+  }
+  
+}
+
+.cover {
+  width: 50rem;
+  padding-left: 0px;
+ 
+  overflow: hidden;
+
+  top: 0;
+  left: 0;
+
+  @media screen and (max-width: 400px) {
+    
+    padding: 0;
+    margin: 0;
+   
+
+    }
+ 
+}
+  
+.qoute{
+  padding-top: 10% ;
+  padding-left: 3%;
+  width: 55%;
+  font-size: 30px;
+  color: whitesmoke;
+   font-family: monospace;
+
+   @media screen and (max-width: 1000px) {
+    font-size: 20px;
+  
+    padding-right: 3%;
+
+    }
+   @media screen and (max-width: 800px) {
+    font-size: 13px;
+    width: unset;
+    padding-right: 3%;
+
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 9px;
+      width: unset;
+      padding-right: 3%;
+  
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 0;
+        width: 0;
+        padding: 0;
+        margin: 0;
+       
+    
+        }
+       
+     
+    
+
+}
+
+
+
+.ant-row {
+    margin: 2%;
+   
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+}
+
+
+.bar {
+
+box-sizing: border-box;
+width: 45vw;
+display: flex;
+margin-bottom: 3%;
+@media screen and (max-width: 800px) {
+  width: 90vw;
+
+  }
+
+}  
+
+.contain{
+    margin-top: 3%;
+}
+
+}

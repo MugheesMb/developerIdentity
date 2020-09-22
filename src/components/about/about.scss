@@ -1,0 +1,136 @@
+.aboutt{
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+  
+    @media screen and (max-width: 800px) {
+       height: unset;
+    
+        
+        
+            flex-direction: column;
+            
+            align-items: center;
+            justify-content: center;
+        
+           }
+
+    .aboutsvg{
+      height: 120vh;
+    
+        width: 53vw;
+      
+        @media screen and (max-width: 1050px) {
+           width: 120%;
+        
+              }
+              @media screen and (max-width: 800px) {
+               width: 100%;
+               height: unset;
+            
+                  }
+        
+    }
+
+
+
+.me{
+
+    width: 53vw;
+ 
+
+    background-color: white;
+    margin-top: 1vw ;
+   margin-left: -8vw;
+
+
+    z-index: -1;
+    opacity: 0.8;
+   
+    @media screen and (max-width: 1200px) {
+margin-bottom: 2%;
+width: 60%;
+padding-right: 1%;
+margin-right: 1%; 
+margin-left: 0;
+margin-top: 3%;
+z-index: 0;
+font-size: 17px;
+
+justify-content: center;
+align-items: center; 
+           }
+    
+                     
+
+
+           @media screen and (max-width: 800px) {
+            margin-bottom: 2%;
+            width: 90%;
+            padding-right: 5%;
+            margin-right: 0; 
+            margin-left: 0;
+            margin-top: 3%;
+            padding-bottom: 3%;
+        
+            justify-content: center;
+            align-items: center; 
+            
+            
+                       }
+   
+}
+.text {
+  
+  
+  
+   color: rgb(19, 15, 15); 
+    font-size: 1vw  auto ;
+  
+ position: absolute;
+  
+     justify-content: center;
+     align-items: center;
+  text-align: center;
+     padding: 2vw ;
+    
+
+
+
+    @media screen and (max-width: 1250px ) {
+       font-size: 19px;
+       justify-content: center;
+       align-items: center; 
+         }
+         @media screen and (max-width: 1200px ) {
+            font-size: 16px;
+              }
+                @media screen and (max-width: 1130px ) {
+            font-size: 15px;
+              }
+              @media screen and (max-width: 1020px ) {
+               font-size: 14px;
+                 }
+         @media screen and (max-width: 980px) {
+                        
+            font-size: 13px;
+         
+                       }
+                       @media screen and (max-width: 900px) {
+                        
+                        font-size: 13px;
+                     
+                                   }
+                       @media screen and (max-width: 820px) {
+            
+                        font-size: 12px;
+                       position: relative;
+
+                     
+                                   }
+                                
+
+        
+}
+
+}

@@ -1,0 +1,66 @@
+.project-item {
+  height: 267px;
+  width: 266px;
+   flex: 1 1 auto;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   justify-content: center;
+   
+   
+   
+ 
+ 
+     .bgimage{
+         background-position: center;
+         background-size: cover;
+         width: 100%;
+         height: 100%;
+         opacity: 0.4;
+     }
+     &:hover {
+         cursor: pointer;
+       
+         & .background-image {
+           transform: scale(1.1);
+           transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+         }
+       
+         & .content {
+           opacity: 0.9;
+         }
+       }
+       
+   
+     
+ .content{
+   height: 40px;
+  padding: 5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ 
+   border: 1px solid black;
+ 
+         background-color: rgb(0, 0, 0);
+        opacity: 0.9;
+         position: absolute;
+       }
+      
+ .back{
+   overflow: hidden;
+   justify-content: center;
+ }
+   
+   
+ .title {
+         font-weight: bold;
+         margin-bottom: 6px;
+         font-size: 17px;
+         color: #ffffff;
+       }
+   
+       
+     
+   }
