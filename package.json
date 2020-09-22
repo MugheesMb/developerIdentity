@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://mugy.codes/",
+  "homepage": "https://MugheesMb.github.io/developerIdentity",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,8 +17,6 @@
     "react-dom": "^16.13.1",
     "react-flippy": "^0.1.5",
     "react-icons": "^3.9.0",
-    "react-image": "^2.4.0",
-    "react-lazy-load-image-component": "^1.5.0",
     "react-particles-js": "^3.0.3",
     "react-redux": "^7.2.1",
     "react-rotating-text": "^1.4.1",
