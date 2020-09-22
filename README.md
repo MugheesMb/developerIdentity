@@ -8,7 +8,7 @@
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
  
 
-  <a href="http://badges.mit-license.org/"><img alt="License" src="https://github.com/MugheesMb/developerIdentity/blob/master/LICENSE" /></a>
+   <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   
 
   
