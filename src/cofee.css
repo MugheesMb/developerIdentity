@@ -1,7 +1,7 @@
 .cofee{
     animation: cofee 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
   
-    
+    margin-top: 3em;
   position: absolute;
   top: 50%;
   left: 50%;
