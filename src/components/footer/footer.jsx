@@ -23,6 +23,8 @@ const Footer = () => {
    <p className='mt2'  > Want to Hire me?</p>
        <span    className="fab fa-linkedin"     >{ '         ' } put your linkdin link here</span>
 
+       <span    className="fab fa-facebook"     >{ '         ' } put your facebook link here</span>
+
        
        
               
