@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import {SET_USER} from './types';
+import {SET_LOAD} from './types';
 
 const initialUserState = {
 
@@ -8,7 +8,7 @@ const initialUserState = {
 
 const user_reducer = (state = initialUserState, action) => {
   switch (action.type) {
-    case SET_USER:
+    case SET_LOAD:
       return {
         isLoading: false
       };

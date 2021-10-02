@@ -8,28 +8,26 @@
   background-color: rgb(49, 64, 77);
   position: fixed;
   overflow-y: hidden;
+ 
 
-  
+}
   @media screen and (max-width: 800px) {
-    height: 40px;
+ .header{   height: 40px;
     width: 100%;
-    }
-  
-
-
+    }  }
 
 #lo {
     
 
-  width: 215px;
   height: 100%;
   width: 215px;
   padding-left: 4%;
   
 
        color: white;
+}
        @media screen and (max-width: 800px) {
-        width: 90px;
+ #lo{       width: 90px;
        height: 25%;
         padding-left: 0;
         }
@@ -40,7 +38,7 @@
    text-decoration: none; 
    background-color: transparent; 
    
-   cursor: pointer; 
+   
 
 
   }
@@ -58,49 +56,67 @@
     justify-content: flex-end;
     
     padding-right: 30px;
+  }
     @media screen and (max-width: 615px) {
-      width: 75%;
+      .options {   width: 75%;
      font-size: 11px;
      padding-right: 3px;
-      }  
+      }  }
       @media screen and (max-width: 425px) {
-        width: 75%;
+        .options{  width: 75%;
        font-size: 9px;
        padding-right: 2px;
-        }  
+        }  }
         @media screen and (max-width: 370px) {
-          width: 75%;
+          .options{   width: 75%;
          font-size: 7px;
          padding-right: 2px;
-          }  
+          }  }
       @media screen and (max-width: 320px) {
-        width: 75%;
+        .options { width: 75%;
        font-size: 6px;
        padding-right: 2px;
-        }  
+        }  }
          @media screen and (max-width: 300px) {
-        width: 75%;
+          .options { width: 75%;
        font-size: 5px;
        padding-right: 2px;
-        }  
+        }  }
         @media screen and (max-width: 270px) {
-          
+          .options  {
          font-size: 5px;
          
-          }  
-    
+          }}
 
     .option { 
+      padding: 20px;
+      color: white;
+    }
+
       @media screen and (max-width: 615px) {
+        .option{
         padding: 7px;
-        }
+        }}
         @media screen and (max-width: 380px) {
+          .option{
           
           padding: 2%;
           
-           }  
-      padding: 20px;
+           }  }
+ 
+           .option:hover {
+            color: white; 
+        }
+    
 
+    .optiondelete{
+      color: white;
     }
-  }
-}
+      @media screen and (max-width: 615px) {
+     .optiondelete{   display: none;
+        
+        }
+    }
+
+  
+

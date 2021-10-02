@@ -1,8 +1,8 @@
-import { SET_USER } from "./types"
+import { SET_LOAD } from "./types"
 
-export const setUser = () => {
+export const setLoad = () => {
     return {
-        type: SET_USER,
+        type: SET_LOAD,
         
     }
 }

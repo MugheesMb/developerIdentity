@@ -1,52 +1,45 @@
-import React from 'react';
-import Navbar from './components/nav/navbar';
-import {setUser} from './reducer/action';
-
-import {  connect } from "react-redux";
-
-
-
-import Skills from './components/skills/Skills';
+import React ,{useEffect} from 'react';
+import Navbar from './components/navbar';
+import {setLoad} from './reducer/action';
+import { useDispatch, useSelector } from "react-redux";
+import Skills from './components/Skills';
 import './App.css';
 import 'tachyons';
-import Projects from './components/project/Projects';
-import Main from './components/main/Main';
-import About from './components/about/About';
-import Particle from './particles';
-import Footer from './components/footer/footer';
-
-import Spinner from './Spinner';
-
-
+import Projects from './components/Projects';
+import Main from './components/Main';
+import About from './components/About';
+import Particle from '../src/background_particles/particles';
+import Footer from './components/footer';
+import Spinner from './loading_spinner/Spinner';
+import Article from './components/Article';
 
 
+const App = () => {
+  const isLoading = useSelector(state => state.user.isLoading);
+  const dispatch = useDispatch();
 
-class App extends React.Component {
-  componentDidMount() {
+  useEffect(() => {
     
-    setTimeout(() => {this.props.setUser()}, 5000);
-  }
+    setTimeout(() => {dispatch(setLoad())}, 5000);
+  });
 
-  render(){
-  return this.props.isLoading ?
- <Spinner/> :  ( 
+  return(
+    
+isLoading ?
+  <Spinner/> :  ( 
     <div  className='app'>
     <Particle/>
      <Navbar/>
 <Main/>
 <Skills/>
 <Projects/>
+<Article/>
 <About/>
 <Footer/>
     </div>
-  );
+  
+  )
+  )
 }
-}
-const mapStateFromProps = state => ({
-  isLoading: state.user.isLoading
-});
 
-const mapDispatch = dispatch => ({
-  setUser: () => dispatch(setUser())
-});
-export default connect(mapStateFromProps , mapDispatch)(App);
+export default App;

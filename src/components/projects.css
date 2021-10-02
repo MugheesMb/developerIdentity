@@ -8,11 +8,12 @@
         padding-right: 40px;
         padding-top: 0;
        
+}
         @media screen and (max-width: 1366px) {
-          height: unset;
+ .projects-page{         height: unset;
        
             }
-      
+        }
         h2 {
             text-shadow: 2px 2px 4px #BBC9DD; 
           
@@ -20,9 +21,9 @@
             font-size: 2em;
            
         }
- .text{
+ .te{
             font-weight: bolder;
-            font-size: 3em; 
+            font-size: 2em; 
         text-align: center;
        
             color: white;
@@ -30,9 +31,9 @@
             
     justify-content: center;
             
-
+ }
             @media screen and (max-width: 800px) {
-                font-size: 1.5em;
+  .te{              font-size: 1.5em;
                 padding-top: 0%;
                 text-align: center;
            
@@ -41,7 +42,7 @@
      
 .gitwork{
     margin-top: 50px;
-    
+}
    
   
 .work{
@@ -51,20 +52,22 @@
     color: #D7FFFE; 
     font-size: 1.5em;
     
+}
     @media screen and (max-width: 1100px) {
-        font-size: 1.2em;
+ .work{       font-size: 1.2em;
         padding-left: 0px;
         }
 }
-}      
+
 .directory-project{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
     @media screen and (max-width: 800px) {
-            
+ .directory-project{           
         justify-content: center;
         align-items: center;
        
@@ -79,14 +82,15 @@
             font-size: larger;
             margin-left: 3%;
            
+        }
             @media screen and (max-width: 800px) {
-            
+         .buttun{   
                 margin: 4%;
                
                 }
 
         }
 
-        }          
+                
 
  

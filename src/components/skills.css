@@ -1,25 +1,12 @@
 
-.skills{
-    height: 150vh;
 
     @media screen and (max-width: 1366px) {
-      
+      .skills{
       height: unset;
-      }
+      }}
 
-    
-.text{
-    font-weight: bolder;
-    font-size: 3em; 
-text-align: center;
-    color: white;
-    @media screen and (max-width: 800px) {
-      font-size: 1.5em;
  
-      }
-    
-    
-}
+
 .f5{
     text-shadow: 2px 2px 4px #BBC9DD; 
   
@@ -31,16 +18,18 @@ h2, i {
   
     color: #D7FFFE; 
     font-size: 1.5em;
+}
     @media screen and (max-width: 800px) {
-      font-size: 1em;
+ h2,i{     font-size: 1em;
  
       }
    
 }
 img{
  width: 10%;
+ }
  @media screen and (max-width: 800px) {
-  width: unset;
+ img{ width: unset;
 
   }
 }
@@ -50,15 +39,29 @@ img{
     font-size: 2em; 
    text-align: center;
     color: white;
-    
+}
     @media screen and (max-width: 800px) {
-       font-size: 1em;
+.tex{       font-size: 1em;
   
        }
    
 }
-
-
+.build{
+    text-align: center;
+    justify-content: center;
+   width: 100vw;
+   font-weight: bolder;
+    font-size: 2em; 
+    color: white;
+    padding-top: 4%;
+}
+    @media screen and (max-width: 800px) {
+ .build{     font-size: 1em;
+ 
+      }
+   
+} 
+h2{color: whitesmoke;}
 .svgcontainer {
   /*show heigh: auto*/
 
@@ -67,8 +70,9 @@ display: flex;
 flex-direction: row;
 
  margin-top: 2%;
+}
  @media screen and (max-width: 400px) {
-    
+ .svgcontainer{   
   display: block;
 
   }
@@ -83,9 +87,9 @@ flex-direction: row;
 
   top: 0;
   left: 0;
-
+}
   @media screen and (max-width: 400px) {
-    
+ .cover{   
     padding: 0;
     margin: 0;
    
@@ -101,37 +105,34 @@ flex-direction: row;
   font-size: 30px;
   color: whitesmoke;
    font-family: monospace;
-
+}
    @media screen and (max-width: 1000px) {
-    font-size: 20px;
+    .qoute{    font-size: 20px;
   
     padding-right: 3%;
 
-    }
+    }}
    @media screen and (max-width: 800px) {
-    font-size: 13px;
+    .qoute{ font-size: 13px;
     width: unset;
     padding-right: 3%;
 
-    }
+    }}
     @media screen and (max-width: 500px) {
-      font-size: 9px;
+      .qoute{ font-size: 9px;
       width: unset;
       padding-right: 3%;
   
-      }
+      }}
       @media screen and (max-width: 400px) {
-        font-size: 0;
+        .qoute{  font-size: 0;
         width: 0;
         padding: 0;
         margin: 0;
        
     
         }
-       
-     
-    
-
+   
 }
 
 
@@ -152,8 +153,9 @@ box-sizing: border-box;
 width: 45vw;
 display: flex;
 margin-bottom: 3%;
+}
 @media screen and (max-width: 800px) {
-  width: 90vw;
+ .bar{ width: 90vw;
 
   }
 
@@ -161,6 +163,45 @@ margin-bottom: 3%;
 
 .contain{
     margin-top: 3%;
+    
 }
 
+
+
+.arrow {
+    text-shadow: 2px 2px 4px #BBC9DD; 
+  
+    color: #D7FFFE; 
+    font-size: 1.5em;
+    font-weight: lighter;
+  padding-right: 20%;
+  margin-top: 10px;
 }
+  @media screen and (max-width: 800px) {
+ .arrow{   
+    color: #D7FFFE; 
+    font-size: 0em;
+   
+  padding-right: 0%;
+  margin-top: 0px;
+    }
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+

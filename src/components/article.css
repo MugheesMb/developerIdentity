@@ -1,0 +1,155 @@
+.firstdiv 
+    {
+        height: 100vh;
+        padding-top: 50px;
+        display: flex;
+        
+    }
+    @media only screen and (max-width: 720px){
+        .firstdiv {
+            height: unset;
+       }
+          
+           }
+ 
+
+ .wraer {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    @media only screen and (max-width: 720px){
+        .wraer {
+            padding: 0 20px;
+       }
+          
+           }
+
+  .recent  {
+      text-align: center;
+        line-height: 1.2em;
+        font-weight: bold;
+        font-size: xxx-large;
+        color: #ffffff;
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+   .recent2 {
+    text-align: center;
+        font-weight: 100;
+        font-size: 1.9em;
+        line-height: 1.4em;
+    }
+
+    .blog{
+        margin-left: -40px;
+        padding-top:  20px;
+    }
+
+    @media only screen and (max-width: 720px){
+        .blog
+        {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+          
+           }
+
+
+    .blogread {
+        width: 33.33%;
+        float: left;
+        margin-bottom: 50px;
+        padding-left: 40px;
+    }
+
+    @media only screen and (max-width: 1090px){
+ .blogread {
+    width: 50%;
+}
+   
+    }
+    @media only screen and (max-width: 720px){
+        .blogread {
+           width: 100%;
+       }
+          
+           }
+
+
+.read1{
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: 40px;
+    max-width: 800px;
+    box-shadow: 0 15px 15px rgba(255, 255, 255, 0.4), 0 2px 8px rgba(48, 47, 47, 0.5);
+
+    margin: 0 auto;
+    position: relative;
+    font-weight: 100;
+    top: 0;
+    transition: top 0.5s, box-shadow 0.5s;
+}
+
+
+.blog-header {
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+a {
+    color: #D81B60;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ .blogread .overlay {
+    width: 100%;
+    height: 200px;
+    background: rgba(216,27,96,0.8);
+    color: rgb(141, 5, 5);
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200px;
+}
+.blog-content {
+    padding: 30px;
+    height: 265px;
+}
+
+.meta {
+    
+        color: #999;
+        font-size: 13px;
+        font-family: "europa",serif,"futura-pt" !important;
+    
+}
+.cont2{
+    font-size: 20px;
+    text-align: left;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    color: rgb(128, 126, 126);
+
+}
+.texxt{
+    
+        height: 78px;
+        overflow: hidden;
+        font-weight: 400;
+        padding-top: 10px;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        padding: 0;
+    
+}
